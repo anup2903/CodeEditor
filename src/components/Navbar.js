@@ -9,7 +9,7 @@ const Nav = () => (
       </div>
       <div className="coright">
         <div className="home sinav">
-          <h2><Link to="/land0">Home</Link></h2>
+          <h2><Link to="/land0" style={{textDecoration: 'inherit',color:"white"}}>Home</Link></h2>
         </div>
         <div className="About sinav">
           <h2>About</h2>
@@ -19,7 +19,7 @@ const Nav = () => (
         </div>
         <div className="Login sinav">
           <h2>
-            <Link className="login" to="/sidelog">
+            <Link className="login" to="/sidelog" style={{textDecoration: 'inherit',color:"white"}}>
               Login
             </Link>
           </h2>

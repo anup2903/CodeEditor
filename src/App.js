@@ -28,10 +28,12 @@ function App() {
         {/* <IntroOut /> */}
 
         <Routes>
-          <Route path="/intro" element={<IntroWeb />}></Route>
-          <Route path="/land0" element={<Landing0 />}></Route>
-          <Route path="/sidelog" element={<Login />}></Route>
-          <Route path="/webpage" element={<Webpage />}></Route>
+        <Route path="/">
+          <Route index element={<Landing0 />} />
+          <Route path="intro" element={<IntroWeb />} />
+          <Route path="sidelog" element={<Login />} />
+          <Route path="webpage" element={<Webpage />} />
+        </Route>
         </Routes>
       </Router>
     </>

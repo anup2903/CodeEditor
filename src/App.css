@@ -44,6 +44,7 @@ body{
 .Login{
   /* background-color: #cae6f7; */
   border-width: 0;
+  margin: 0;
 }
 .code{
   margin: 0;
@@ -421,14 +422,14 @@ body{
 /* Login start */
 .login{
   /* background-color: rgb(161, 21, 21); */
-  position:absolute;
+  /* position:absolute;
   max-height: 30vh;
   display:flex;
   align-self: flex-end;
   align-items: flex-end;
   flex-direction: column;
   margin: 4.4% 0;
-  /* display: none; */
+  display: none; */
   
 
   

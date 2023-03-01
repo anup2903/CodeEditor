@@ -15,33 +15,29 @@ import IntroEr from './IntroEr';
 import IntroWeb from './IntroWeb';
 const Landing0 = () => {
   return (
-    
-      <div className="landing0">
-        <Navbar />
-        <div className="content">
-          <small>Welcome to our</small>
-          <h1>
-            Online <br /> Code Editors
-          </h1>
-          <button>
-            <Link to="/intro">Get Started</Link>{" "}
-          </button>
-        </div>
-        <div className="icons">
-          <img src={html} alt="" />
-          <img src={css} alt="" />
-          <img src={git} alt="" />
-          <img src={merge} alt="" />
-          <img src={js} alt="" />
-          <img src={php} alt="" />
-          <img src={python} alt="" />
-          <img src={c} alt="" />
-          <img src={error} alt="" />
-        </div>
-
-        
+    <div className="landing0">
+      <Navbar />
+      <div className="content">
+        <small>Welcome to our</small>
+        <h1>
+          Online <br /> Code Editors
+        </h1>
+        <Link to="intro">
+          <button>Get Started</button>
+        </Link>
       </div>
-    
+      <div className="icons">
+        <img src={html} alt="" />
+        <img src={css} alt="" />
+        <img src={git} alt="" />
+        <img src={merge} alt="" />
+        <img src={js} alt="" />
+        <img src={php} alt="" />
+        <img src={python} alt="" />
+        <img src={c} alt="" />
+        <img src={error} alt="" />
+      </div>
+    </div>
   );
 }
 
