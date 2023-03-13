@@ -22,7 +22,7 @@ const Landing0 = () => {
         <h1>
           Online <br /> Code Editors
         </h1>
-        <Link to="intro">
+        <Link to="landmain">
           <button>Get Started</button>
         </Link>
       </div>

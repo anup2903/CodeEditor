@@ -2,9 +2,6 @@
 
 body{
   margin: 0px ;
-  /* background-color: rgb(224, 240, 241); */
-  /* background-color: rgb(36, 57, 75); */
-  /* background-image: linear-gradient(to right, rgb(223, 242, 233) , rgb(50, 116, 157)); */
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -111,14 +108,17 @@ body{
 /* navbar end */
 /* landing1 start */
 /* @media (max-width) */
+.PAGE{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./images/back21.jpg');
+  background-attachment: fixed;
+}
 
 .pageone{
   display: flex;
   justify-content: space-around;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('./components/wave-haikei.svg');
 }
 .land1{
   margin-top: 10rem;
@@ -193,7 +193,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-around;
-  bottom: -50px;
+  bottom: -70px;
   align-items: center;
   position: absolute;
 }
@@ -420,20 +420,7 @@ body{
 
 
 /* Login start */
-.login{
-  /* background-color: rgb(161, 21, 21); */
-  /* position:absolute;
-  max-height: 30vh;
-  display:flex;
-  align-self: flex-end;
-  align-items: flex-end;
-  flex-direction: column;
-  margin: 4.4% 0;
-  display: none; */
-  
 
-  
-}
 .sign{
   background-color: rgb(246, 95, 95);
   height: 18rem;
@@ -581,19 +568,26 @@ input{
 /* webpage end */
 
 /* introweb start */
-
+.INTRO{
+  background-image: url('./images/back14.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  scroll-behavior: smooth !important;
+  background-attachment: fixed;
+  
+}
 .intro{
   display: flex;
   justify-content: space-around;
   padding-top: 12rem;
   height: 90vh;
-  /* background-color: #f5f9ed; */
-  background-image: url('./images/back2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-image: linear-gradient(to right , rgb(251, 234, 234), rgb(236, 194, 170)); */
   scroll-behavior: smooth !important;
+  overflow: hidden;
+  
 }
 .resimg{
   width: 85%;
@@ -638,13 +632,15 @@ input{
 .out{
   display: flex;
   justify-content: space-around;
-  height: 90vh;
+  height: 100vh;
   padding-top: 7rem;
-  background-image: url('./images/back3.jpg');
+  background-image: url('./images/back13.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  background-attachment: fixed;
+  /* border-radius: 0% 0% 85% 85% / 30%; */
+  overflow: hidden;
 }
 .outgif{
   width: 80%;
